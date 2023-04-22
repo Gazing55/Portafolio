@@ -2,19 +2,19 @@
 
 /* Tema de la página web */
 :root{
-    --hue-1: 160;
-    --hue-2: 33;
-    --bg-color: hsl(var(--hue-1), 100%, 95%); /* Color del fondo completo */
-    --main-color-1: hsl(var(--hue-1), 100%, 40%); /* #00cc88 */
-    --main-color-1-dark-1: hsl(var(--hue-1), 100%, 35%);
-    --main-color-2: hsl(var(--hue-2), 100%, 78%);
-    --main-color-2-dark-2: hsl(var(--hue-2), 100%, 60%);
+    --hue-1: 209; /* HSL 209 77.5 15.7 */
+    --hue-2: 0; /* HSL 0 0 90.6 */
+    --bg-color: hsl(var(--hue-1), 77.5%, 90%); /* Color del fondo completo */
+    --main-color-1: hsl(var(--hue-1), 50%, 50%); /* #00cc88 */
+    --main-color-1-dark-1: hsl(var(--hue-1), 77.5%, 0%);
+    --main-color-2: hsl(var(--hue-2), 0%, 40%);
+    --main-color-2-dark-2: hsl(var(--hue-2), 0%, 15%);
     --bg-color-1: hsl(var(--hue-1), 100%, 95%); /* Color del fondo completo */
     --bg-color-2: #fff;
-    --bg-color-3: hsl(var(--hue-1), 100%, 97%);
+    --bg-color-3: hsl(var(--hue-1), 77.5%, 90%); 
     --bg-color-transparent: rgba(255, 255, 255, 0.6);
-    --heading-color: hsl(var(--hue-1), 31%, 24%);
-    --text-color: hsl(var(--hue-1), 67%, 45%);
+    --heading-color: hsl(var(--hue-1), 77.5%, 15.7%);
+    --text-color: hsl(var(--hue-1), 77.5%, 40%);
     --section-padding: 7rem;
 }
 /* Estilos Generales */
@@ -34,8 +34,8 @@ body{
 
 /* Al selecionar el texto se pinta de cierto color y las letras se vuelven negras */
 ::selection{
-    background-color: hsla(var(--hue-1), 100%, 50%, 0.9);
-    color: #000;
+    background-color: hsla(var(--hue-1), 77.5%, 15.7%, 0.9);
+    color: #fff;
 }
 
 a{
