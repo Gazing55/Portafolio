@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700;800&family=Rye&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700;800&family=Rye&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;0,800;1,600&display=swap');
 
 /* Tema de la página web */
 :root{
@@ -17,6 +18,7 @@
     --text-color: hsl(var(--hue-1), 77.5%, 40%);
     --section-padding: 7rem;
 }
+
 /* Estilos Generales */
 *,
 *::before,
@@ -29,7 +31,7 @@
 body{
     overflow-x: hidden;
     background-color: var(--bg-color);
-    font-family: "Fira Sans", sans-serif;    
+    font-family: "Montserrat", sans-serif;    
 }
 
 /* Al selecionar el texto se pinta de cierto color y las letras se vuelven negras */
@@ -59,7 +61,7 @@ ul{
 
 .logo{
     margin-right: 1.5rem;
-    font-family: 'Rye', cursive;
+    font-family: 'Bree Serif', cursive;
     font-size: 2rem;
     color: var(--heading-color);
     letter-spacing: 1px;
@@ -75,8 +77,8 @@ ul{
 .sub-heading{
     color: var(--heading-color);
     text-transform: uppercase;
-    font-size: 1.2rem;
-    letter-spacing: .5px;
+    font-size: 1.1rem;
+    letter-spacing: .4px;
     border-left: 5px solid var(--main-color-2);
     padding: .13rem .75rem;
     margin-bottom: 1rem;
@@ -86,15 +88,15 @@ ul{
 
 .heading{
     color: var(--heading-color);
-    font-size: 2.75rem;
-    font-family: 'Rye', cursive;
-    font-weight: 300;
+    font-size: 2.5rem;
+    font-family: 'Bree Serif', cursive;
+    font-weight: 400;
     line-height: 1.3;
 }
 
 .text{
     color: var(--text-color);
-    font-size: 1.1rem;
+    font-size: 1.25rem;
     margin: 2rem 0;
     line-height: 1.5;
 }
@@ -276,7 +278,7 @@ header.scrolled .logo{
 }
 
 .showcase-area .heading{
-    font-size: 3.25rem;
+    font-size: 2.9rem;
 }
 
 .showcase-area .text{
